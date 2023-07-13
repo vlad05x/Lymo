@@ -177,6 +177,12 @@ ol {
   }
 }
 
+@media screen and (max-width:628px){
+  .header_container{
+    padding: 0px 5px 0px 0px ;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .header_container {
     max-width: 1000px;
@@ -326,6 +332,8 @@ main {
     margin-left: 20px;
   }
 }
+
+
 
 @media screen and (max-width: 425px) {
   .main_info {
