@@ -161,6 +161,12 @@ ol {
   }
 }
 
+@media screen and (max-width: 1373px) {
+  .nav-item_button {
+    margin: 0px 30px;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .header_container {
     max-width: 1000px;
@@ -219,20 +225,33 @@ ol {
     display: none;
     margin-left: 240px;
   }
-    .mobile-menu.active{
-      margin: 0px 245px;
-    }
+  .mobile-menu.active {
+    margin: 0px 245px;
+  }
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width: 368px) {
   .header_container {
     display: flex;
     flex-wrap: nowrap;
   }
-    .burger-menu{
-          margin: 10px 0px 10px 160px;
-    }
-    
+
+  .burger-menu {
+    margin: 10px 0px 10px 160px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header_container {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .burger-menu {
+    margin: 10px 0px 10px 160px;
+  }
+  .mobile-menu.active {
+    margin: 0px 190px;
+  }
 }
 
 /* --------------------------------------------------- */
@@ -301,8 +320,6 @@ main {
   }
 }
 
-
-
 @media screen and (max-width: 768px) {
   .main_info {
     max-width: 700px;
@@ -332,16 +349,16 @@ main {
   }
 }
 
-@media screen and (max-width:320px) {
-  .TITlE{
+@media screen and (max-width: 320px) {
+  .TITlE {
     font-size: 40px;
     width: 250px;
   }
-    .TEXT{
-      margin: 10px 50px 20px 0px;
-    }
+  .TEXT {
+    margin: 10px 50px 20px 0px;
+  }
 
-  .main_butt{
+  .main_butt {
     margin: 10px 50px 20px 0px;
   }
 }
@@ -420,20 +437,20 @@ main {
   }
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width: 320px) {
   .block_title {
-      font-size: 35px;
-      width: 200px;
-      margin-left: 35px;
-    }
-    .block_Quest_info img{
-      width: 200px;
-      height: 150px;
-      margin-left: 35px;
-    }
-    .block_text{
-      width: 250px;
-    }
+    font-size: 35px;
+    width: 200px;
+    margin-left: 35px;
+  }
+  .block_Quest_info img {
+    width: 200px;
+    height: 150px;
+    margin-left: 35px;
+  }
+  .block_text {
+    width: 250px;
+  }
 }
 
 .main_block_Wellnes {
@@ -479,19 +496,19 @@ main {
   .block_Wellnes_info {
     margin: 200px 0px 88px 80px;
   }
-    .main_block_Wellnes .block_title{
-      width: 300px;
-    }
+  .main_block_Wellnes .block_title {
+    width: 300px;
+  }
 }
 
-@media screen and (max-width:320px) {
-  .main_block_Wellnes .block_title{
+@media screen and (max-width: 320px) {
+  .main_block_Wellnes .block_title {
     width: 250px;
-    margin:5px;
+    margin: 5px;
   }
-    .main_butt{
-      width: 170px;
-    }
+  .main_butt {
+    width: 170px;
+  }
 }
 
 .main_block_Meet {
@@ -582,26 +599,26 @@ main {
   }
 }
 
-@media screen and (max-width:375px) {
-  .block_Quest_info{
+@media screen and (max-width: 375px) {
+  .block_Quest_info {
     margin: 30px 45px;
   }
-    .block_Wellnes_info{
-      margin: 250px 45px;
-    }
-    .block_Meet_info{
-      margin: 100px 0px 0px 150px;
-    }
+  .block_Wellnes_info {
+    margin: 250px 45px;
+  }
+  .block_Meet_info {
+    margin: 100px 0px 0px 150px;
+  }
 }
 
-@media screen and (max-width:320px){
-  .block_Meet_info{
+@media screen and (max-width: 320px) {
+  .block_Meet_info {
     width: 50px;
   }
-    .main_block_Meet .block_text{
-      width: 150px;
-      margin-bottom: 20px;
-    }
+  .main_block_Meet .block_text {
+    width: 150px;
+    margin-bottom: 20px;
+  }
 }
 
 /* ------------------------ */
@@ -810,31 +827,31 @@ main {
   }
 }
 
-@media screen and (max-width:425px){
-  .footer{
+@media screen and (max-width: 425px) {
+  .footer {
     overflow: scroll;
   }
   .footer_block {
-      display: contents;
-    }
-  
-    .footer_block-info {
-      margin: 10px 110px;
-    }
-  
-    ._right {
-      display: none;
-    }
-  
-    ._right_link {
-      display: none;
-    }
-  
-    .block_login {
-      margin: 5px 20px;
-    }
-  
-    .block_social_media {
-      margin: 25px 10px;
-    }
+    display: contents;
+  }
+
+  .footer_block-info {
+    margin: 10px 110px;
+  }
+
+  ._right {
+    display: none;
+  }
+
+  ._right_link {
+    display: none;
+  }
+
+  .block_login {
+    margin: 5px 20px;
+  }
+
+  .block_social_media {
+    margin: 25px 10px;
+  }
 }
